@@ -8,18 +8,6 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#container {
-    width: 360px;
-    margin: 100px auto;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
-    background: #f1f1f1;
-}
-
-.completed {
-    color: grey;
-    text-decoration: line-through;
-}
-
 h1 {
     background: #2980b9;
     margin: 0;
@@ -63,10 +51,6 @@ input:focus {
     border: 2px solid #2980b9;
 }
 
-.fa-plus {
-    float: right;
-}
-
 span {
     background: #e74c3c;
     color: white;
@@ -82,4 +66,20 @@ span {
 li:hover span {
     width: 40px;
     opacity: 1;
+}
+
+.completed {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.fa-plus {
+    float: right;
+}
+
+#container {
+    width: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    background: #f1f1f1;
 }

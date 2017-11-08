@@ -18,3 +18,8 @@ $("input[type='text']").on("keypress", function (e) {
         $(this).val("");
     }
 })
+
+// Add button listener
+$(".fa-plus").on("click", function () {
+    $("input[type='text']").fadeToggle();
+})
